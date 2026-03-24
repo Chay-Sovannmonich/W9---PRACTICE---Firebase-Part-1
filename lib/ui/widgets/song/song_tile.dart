@@ -29,6 +29,10 @@ class SongTile extends StatelessWidget {
           trailing: Text(
             isPlaying ? "Playing" : "",
             style: TextStyle(color: Colors.amber),
+
+          ),
+          leading: CircleAvatar(
+            backgroundImage: NetworkImage(song.imageUrl.toString()),
           ),
         ),
       ),
