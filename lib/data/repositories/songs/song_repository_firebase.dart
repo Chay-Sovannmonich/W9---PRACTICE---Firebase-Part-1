@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 import '../../../model/songs/song.dart';
-import '../../dtos/song_dto.dart';
+import '../../dtos/songs/song_dto.dart';
 import 'song_repository.dart';
 
 class SongRepositoryFirebase extends SongRepository {
